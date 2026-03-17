@@ -182,6 +182,7 @@ class User {
     private List<String> groups = new ArrayList<>();
     private Set<String> blockedUsers = new HashSet<>();
     private boolean online = false; // Automatic status
+    System.out.println("hellooooooo");
 
     public User(String username, String password) {
         this.username = username;
